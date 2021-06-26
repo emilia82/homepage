@@ -13,4 +13,10 @@ https://emilia82.github.io/homepage/
 
 ## Description
 
-Simple and minimalistic hompage with navigation, footer, 3 sections & 2 buttons with interactions in javascript. 
+Simple, minimalistic hompage contains:
+
+- navigation with links to sections, 
+- footer with copyrights, 
+- 3 sections with tekst,
+- 1 section contains table,
+- 2 buttons with interactions in javascript 
