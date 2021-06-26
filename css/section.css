@@ -1,0 +1,36 @@
+
+.section__image {
+    display: block;
+    image-orientation:initial;
+    border-radius: 460px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+    max-width: 400px;
+    padding: 0 20px;
+
+
+}
+
+.section__header {
+    color: #1b445f;
+    background-color: hsl(24, 94%, 50%);
+    border: 3px solid grey;
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 4px 4px;
+}
+.section__header:hover {
+    background-color: hsl(24, 94%, 60%);
+}
+
+.section__paragraph {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+
+}

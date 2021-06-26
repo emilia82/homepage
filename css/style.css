@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    display: block;
+    background-color: #fdfaf7;
+    font-family: "Roboto", sans-serif;
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.newBackgroundChange {
+    background-color: rgb(8, 189, 77);
+}
+
+
+.ciekawyElement {
+    color: rgb(247, 103, 7);
+}
+
+

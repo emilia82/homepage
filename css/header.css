@@ -1,0 +1,20 @@
+.header {
+    color: #1b445f;
+    background-color: #fdfaf7;
+    font-family: "Alfa Slab One", cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.header:hover {
+    color: hsl(204, 56%, 34%);
+}
+
+.header:active {
+    color: hsl(204, 56%, 44%);
+}
+
+.sub__header {
+    font-size: 25px;
+    text-align: center;
+}

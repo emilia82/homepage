@@ -1,0 +1,39 @@
+.table {
+    overflow-x: auto;
+}
+.table__body {
+    font-family: "Roboto", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+} 
+
+
+.table__caption {
+    caption-side: bottom;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.table__row:nth-child(even) {
+    background-color: rgb(175, 175, 175);
+}
+
+.table__row:hover {
+    background-color: #1b445f;
+}
+
+.table__cell {
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+ 
+.table__header {
+    background-color: rgb(247, 103, 7);
+    color: white;
+    font-weight: normal;
+} 

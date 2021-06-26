@@ -1,0 +1,21 @@
+.footer {
+    text-align: center;
+    background-color: rgb(247, 103, 7);
+    padding: 10px 0;
+    border: 2px solid grey;
+    font-size: 20px;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-weight: 200px;
+    color: red;
+}
+
+.footer__link:visited {
+    color: black;
+}
+
+.footer__link:focus {
+    outline: 2px solid currentColor;
+}
