@@ -11,11 +11,11 @@ const welcome = () => {
                 const header = document.querySelector(".js-header");
                 const hideHeaderButton = document.querySelector(".js-hideHeaderButton");
         
-                header.classList.toggle(hidenHeader);
-                if (header.classList.contains(hidenHeader)) {
-                        hideHeaderButton.innerText = "Ukryj nagłówek";
+                header.classList.toggle("hidenHeader");
+                if (header.classList.contains("hidenHeader")) {
+                        hideHeaderButton.innerText = "Pokaż nagłówek";
         
-                } else { hideHeaderButton.innerText = "Pokaż nagłówek"; }
+                } else { hideHeaderButton.innerText = "Ukryj nagłówek"; }
         };
             
             
