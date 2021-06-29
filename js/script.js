@@ -11,8 +11,8 @@ const welcome = () => {
                 const header = document.querySelector(".js-header");
                 const hideHeaderButton = document.querySelector(".js-hideHeaderButton");
         
-                header.classList.toggle(hideHeader);
-                if (header.classList.contains(hideHeader)) {
+                header.classList.toggle(hidenHeader);
+                if (header.classList.contains(hidenHeader)) {
                         hideHeaderButton.innerText = "Ukryj nagłówek";
         
                 } else { hideHeaderButton.innerText = "Pokaż nagłówek"; }
@@ -24,7 +24,7 @@ const welcome = () => {
                    const hideHeaderButton = document.querySelector(".js-hideHeaderButton");
         
                 changeBackgroundButton.addEventListener("click", newBackgroundChange);
-                hideHeaderButton.addEventListener("click", hideHeaderButton);
+                hideHeaderButton.addEventListener("click", hideHeader);
            };
  
 init();
