@@ -17,7 +17,7 @@
 .section__header {
     color: #1b445f;
     background-color: hsl(24, 94%, 50%);
-    border: 3px solid grey;
+    border: 3px solid rgb(206, 206, 206);
     padding: 10px;
     margin-left: 15px;
     font-size: 20px;
