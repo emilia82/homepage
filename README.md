@@ -9,7 +9,7 @@ https://emilia82.github.io/homepage/
 
 - HTML5
 - CSS/BEM
-- JavaScript
+- JavaScript/ECM6
 
 ## Description
 
@@ -42,3 +42,9 @@ when clicked - changes color and refers to the section
 - the second button "zmień kolor tła" changes the background color from white to blue 
 
 ![buttonsInteraction](https://github.com/emilia82/homepage/blob/main/image/3-buttons-interaction.gif?raw=true)
+
+
+## 4. Interaction with image
+- if you click on image, it will change /hint in sub header
+
+![imageInteraction](https://github.com/emilia82/homepage/blob/main/image/4-image-change.gif?raw=true)
