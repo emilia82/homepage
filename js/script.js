@@ -1,9 +1,9 @@
-const welcome = () => {
-        console.log("Cześć! Witaj na mojej stronie! Poznaj moją twórczość!");
-}
-{
-        
-        
+ 
+{ 
+        const welcome = () => {
+                console.log("Cześć! Witaj na mojej stronie! Poznaj moją twórczość!");
+        } 
+                
         const toggleBackground = () => {
                 const body = document.querySelector(".body");
                 body.classList.toggle("toggleBackground");
@@ -26,23 +26,39 @@ const welcome = () => {
 
                 changeBackgroundButton.addEventListener("click", toggleBackground);
                 hideHeaderButton.addEventListener("click", hideHeader);
+                
+                init();
+                welcome();       
         };
-
-       
-        const myImage = document.querySelector("img");
         
-        myImage.onclick = function () {
-                let mySrc = myImage.getAttribute("src");
+
+{
+        const toggleImage = () => {
+                const myImage = document.querySelector("img");
+                const mySrc = myImage.getAttribute("src", "image/EmiliaWarakomska.jpg");
+                
+                toggleImage.classList.toggle("toggleImage");
+
+        
+                const myImage = myImage.getAttribute("src");
                 if (mySrc === "image/EmiliaWarakomska.jpg") {
-                        myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
-                } else {
-                        myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
-                }
-        }
-
-        init();
-        (welcome);
-
+                                        myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
+                                } else {
+                                        myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
+                                }
+        }  
+}      
 };
+        
+       
+        // myImage.onclick = function () {
+        //         let mySrc = myImage.getAttribute("src");
+        //         if (mySrc === "image/EmiliaWarakomska.jpg") {
+        //                 myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
+        //         } else {
+        //                 myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
+        //         }
+        
+
 
 
