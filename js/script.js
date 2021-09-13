@@ -27,9 +27,10 @@
                 changeBackgroundButton.addEventListener("click", toggleBackground);
                 hideHeaderButton.addEventListener("click", hideHeader);
                 
-                init();
-                welcome();       
+                       
         };
+        init();
+        welcome();
         
 
 {
