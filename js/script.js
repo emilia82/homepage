@@ -39,7 +39,7 @@ const welcome = () => {
                 toggleImage.classList.toggle("toggleImage");
 
 
-                const myImage = myImage.getAttribute("src");
+                const mySrc = myImage.getAttribute("src");
                 if (mySrc === "image/EmiliaWarakomska.jpg") {
                         myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
                 } else {
