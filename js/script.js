@@ -35,7 +35,7 @@ const welcome = () => {
         const toggleImage = () => {
                 const myImage = document.querySelector("img");
                 
-                toggleImage.classList.toggle("toggleImage");
+                myImage.classList.toggle("toggleImage");
 
 
                 const mySrc = myImage.getAttribute("src");
@@ -45,6 +45,7 @@ const welcome = () => {
                         myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
                 }
         }
+        
 
 };
         // myImage.onclick = function () {
