@@ -25,7 +25,6 @@ const welcome = () => {
                 changeBackgroundButton.addEventListener("click", toggleBackground);
                 hideHeaderButton.addEventListener("click", hideHeader);
 
-
         };
         init();
         welcome();
@@ -38,18 +37,5 @@ const welcome = () => {
                         myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
                 }
     
+}
 };
-        
-// const toggleImage = () => {
-        //         const myImage = document.querySelector("img");
-                
-        //         myImage.classList.toggle("toggleImage");
-
-
-        //         const mySrc = myImage.getAttribute("src");
-        //         if (mySrc === "image/EmiliaWarakomska.jpg") {
-        //                 myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
-        //         } else {
-        //                 myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
-                // }
-        }
