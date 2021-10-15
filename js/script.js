@@ -35,7 +35,6 @@ const welcome = () => {
                         myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
                 } else {
                         myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
-                }
-    
+                }   
 }
 };
