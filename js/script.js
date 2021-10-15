@@ -29,12 +29,14 @@ const welcome = () => {
         init();
         welcome();
 
+        let myImage = document.querySelector("img");
+
         myImage.onclick = function () {
                 let mySrc = myImage.getAttribute("src");
                 if (mySrc === "image/EmiliaWarakomska.jpg") {
                         myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
                 } else {
-                        myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
+                        myImage.setAttribute("src", "image/EmiliaWarakomska.jpg");
                 }   
 }
 };
