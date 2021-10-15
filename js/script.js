@@ -30,29 +30,26 @@ const welcome = () => {
         init();
         welcome();
 
-
-
-        const toggleImage = () => {
-                const myImage = document.querySelector("img");
-                
-                myImage.classList.toggle("toggleImage");
-
-
-                const mySrc = myImage.getAttribute("src");
+        myImage.onclick = function () {
+                let mySrc = myImage.getAttribute("src");
                 if (mySrc === "image/EmiliaWarakomska.jpg") {
                         myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
                 } else {
                         myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
                 }
-        }
-        
-
+    
 };
-        // myImage.onclick = function () {
-        //         let mySrc = myImage.getAttribute("src");
+        
+// const toggleImage = () => {
+        //         const myImage = document.querySelector("img");
+                
+        //         myImage.classList.toggle("toggleImage");
+
+
+        //         const mySrc = myImage.getAttribute("src");
         //         if (mySrc === "image/EmiliaWarakomska.jpg") {
         //                 myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
         //         } else {
         //                 myImage.setAttribute("src", "image/Emilia_Warakomska.jpg");
-        //         }
-
+                // }
+        }
